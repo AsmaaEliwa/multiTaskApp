@@ -13,7 +13,7 @@ struct multiTaskAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeSwiftUIView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
