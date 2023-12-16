@@ -6,12 +6,50 @@
 //
 
 import SwiftUI
-
-struct ShowAllAudioView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+import AVKit
+struct AVPlayerView: UIViewControllerRepresentable {
+    let player: AVPlayer
+    
+    func makeUIViewController(context: Context) -> AVPlayerViewController {
+        let playerController = AVPlayerViewController()
+        playerController.player = player
+        return playerController
     }
+    
+    func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {}
 }
+struct ShowAllAudioView: View {
+    @ObservedObject var documentDirectoryManger : DocumentDirectoryManger
+    var audioManager = AudioManger()
+    init(){
+        documentDirectoryManger = DocumentDirectoryManger.shared
+        audioManager = AudioManger.shared
+        
+    }
+    var body: some View {
+            NavigationView {
+                List {
+                    ForEach(documentDirectoryManger.audios, id: \.self) { audioUrl in
+                        Button(action: {
+                            let player = AVPlayer(url: audioUrl)
+                            let playerView = AVPlayerView(player: player)
+                            UIApplication.shared.windows.first?.rootViewController?.present(
+                                UIHostingController(rootView: playerView),
+                                animated: true,
+                                completion: {
+                                    player.play()
+                                }
+                            )
+                        }) {
+                            Text(audioUrl.lastPathComponent) // Display the filename in the list
+                        }
+                    }
+                }
+                .navigationBarTitle("All Audios")
+            }
+            .padding()
+        }
+    }
 
 #Preview {
     ShowAllAudioView()

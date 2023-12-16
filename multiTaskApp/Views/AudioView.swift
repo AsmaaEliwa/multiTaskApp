@@ -31,7 +31,7 @@ struct AudioView: View {
                     } else {
                         audioRecorder.startRecording()
                         process = "Stop"
-                        icon = "mic.fill"
+                        icon = "mic.and.signal.meter.fill"
                     }
                     isRecording.toggle()
                 }label: {

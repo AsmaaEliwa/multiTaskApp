@@ -19,6 +19,8 @@
 		7FF4DBA42B2C6D12002AF49B /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DBA32B2C6D12002AF49B /* PhotoView.swift */; };
 		7FF4DBA62B2C76D8002AF49B /* AudioManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DBA52B2C76D8002AF49B /* AudioManger.swift */; };
 		7FF4DBA92B2CA1E0002AF49B /* ShowAllAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DBA82B2CA1E0002AF49B /* ShowAllAudioView.swift */; };
+		7FF4DBAB2B2DD5CF002AF49B /* DocumentDirectoryManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DBAA2B2DD5CF002AF49B /* DocumentDirectoryManger.swift */; };
+		7FF4DBAD2B2DDB21002AF49B /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DBAC2B2DDB21002AF49B /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		7FF4DBA32B2C6D12002AF49B /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		7FF4DBA52B2C76D8002AF49B /* AudioManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManger.swift; sourceTree = "<group>"; };
 		7FF4DBA82B2CA1E0002AF49B /* ShowAllAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllAudioView.swift; sourceTree = "<group>"; };
+		7FF4DBAA2B2DD5CF002AF49B /* DocumentDirectoryManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDirectoryManger.swift; sourceTree = "<group>"; };
+		7FF4DBAC2B2DDB21002AF49B /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				7FF4DB902B2C6B03002AF49B /* Preview Content */,
 				7FF4DBA72B2C7720002AF49B /* Views */,
 				7FF4DBA52B2C76D8002AF49B /* AudioManger.swift */,
+				7FF4DBAA2B2DD5CF002AF49B /* DocumentDirectoryManger.swift */,
+				7FF4DBAC2B2DDB21002AF49B /* PlayerViewController.swift */,
 			);
 			path = multiTaskApp;
 			sourceTree = "<group>";
@@ -172,7 +178,9 @@
 				7FF4DBA92B2CA1E0002AF49B /* ShowAllAudioView.swift in Sources */,
 				7FF4DB972B2C6B03002AF49B /* multiTaskApp.xcdatamodeld in Sources */,
 				7FF4DBA22B2C6CCC002AF49B /* VideoView.swift in Sources */,
+				7FF4DBAB2B2DD5CF002AF49B /* DocumentDirectoryManger.swift in Sources */,
 				7FF4DBA02B2C6C89002AF49B /* AudioView.swift in Sources */,
+				7FF4DBAD2B2DDB21002AF49B /* PlayerViewController.swift in Sources */,
 				7FF4DB942B2C6B03002AF49B /* Persistence.swift in Sources */,
 				7FF4DB8D2B2C6AFE002AF49B /* ContentView.swift in Sources */,
 				7FF4DB9E2B2C6BDC002AF49B /* HomeSwiftUIView.swift in Sources */,
@@ -314,6 +322,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"multiTaskApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App would like to access you audio recorder";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +351,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"multiTaskApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "App would like to access you audio recorder";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
