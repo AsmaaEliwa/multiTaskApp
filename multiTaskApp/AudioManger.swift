@@ -29,8 +29,8 @@ class AudioManger: NSObject, AVAudioRecorderDelegate {
             
             let settings = [
                 AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
-//                AVSampleRateKey: 44100,
-//                AVNumberOfChannelsKey: 2,
+                AVSampleRateKey: 44100,
+                AVNumberOfChannelsKey: 2,
                 AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue
             ] as [String : Any]
             

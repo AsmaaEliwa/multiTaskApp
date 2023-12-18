@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FA802C92B2FD95900E87A60 /* ShowTokenPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA802C82B2FD95900E87A60 /* ShowTokenPictures.swift */; };
 		7FF4DB8B2B2C6AFE002AF49B /* multiTaskAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DB8A2B2C6AFE002AF49B /* multiTaskAppApp.swift */; };
 		7FF4DB8D2B2C6AFE002AF49B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DB8C2B2C6AFE002AF49B /* ContentView.swift */; };
 		7FF4DB8F2B2C6B03002AF49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF4DB8E2B2C6B03002AF49B /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FA802C82B2FD95900E87A60 /* ShowTokenPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTokenPictures.swift; sourceTree = "<group>"; };
 		7FF4DB872B2C6AFE002AF49B /* multiTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF4DB8A2B2C6AFE002AF49B /* multiTaskAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiTaskAppApp.swift; sourceTree = "<group>"; };
 		7FF4DB8C2B2C6AFE002AF49B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				7FF4DBA12B2C6CCC002AF49B /* VideoView.swift */,
 				7FF4DBA32B2C6D12002AF49B /* PhotoView.swift */,
 				7FF4DBA82B2CA1E0002AF49B /* ShowAllAudioView.swift */,
+				7FA802C82B2FD95900E87A60 /* ShowTokenPictures.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				7FF4DB8D2B2C6AFE002AF49B /* ContentView.swift in Sources */,
 				7FF4DB9E2B2C6BDC002AF49B /* HomeSwiftUIView.swift in Sources */,
 				7FF4DBA62B2C76D8002AF49B /* AudioManger.swift in Sources */,
+				7FA802C92B2FD95900E87A60 /* ShowTokenPictures.swift in Sources */,
 				7FF4DB8B2B2C6AFE002AF49B /* multiTaskAppApp.swift in Sources */,
 				7FF4DBA42B2C6D12002AF49B /* PhotoView.swift in Sources */,
 			);
@@ -324,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"multiTaskApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PPGW64ZB2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "App would like to access your camera";
@@ -333,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"multiTaskApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PPGW64ZB2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "App would like to access your camera";
@@ -363,6 +370,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
