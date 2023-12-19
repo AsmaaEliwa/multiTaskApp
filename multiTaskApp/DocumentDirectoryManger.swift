@@ -21,7 +21,7 @@ class DocumentDirectoryManger: ObservableObject{
             let documentsURL = try fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
             let directoryContents = try fileManager.contentsOfDirectory(at: documentsURL, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
 
-            // Filter files to only include audio files (modify as needed based on file extensions)
+   
             audioFiles = directoryContents.filter { $0.pathExtension == "m4a" /* Add more extensions if needed */ }
 
         } catch {

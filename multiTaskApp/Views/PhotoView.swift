@@ -6,8 +6,8 @@
 //
 import SwiftUI
 struct PhotoView: View {
-    @State private var isShowingImagePicker = false
-    @State private var image: UIImage?
+    @State  var isShowingImagePicker = false
+    @State  var image: UIImage?
     
     var body: some View {
         NavigationView {
