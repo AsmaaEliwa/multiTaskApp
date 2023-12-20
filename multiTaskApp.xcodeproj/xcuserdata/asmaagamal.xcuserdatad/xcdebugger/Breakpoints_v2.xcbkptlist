@@ -20,5 +20,337 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AAFE095-9907-4A13-AE39-285222CB4B68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CB2E556-50F3-46AA-9147-4948253D556D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/Views/DisplayVideosView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5CB2E556-50F3-46AA-9147-4948253D556D - 19d95936638078cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URL) -&gt; &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Foundation.URL&gt;, Foundation.URL, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt; in multiTaskApp.DisplayVideosView.body.getter : some"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/Views/DisplayVideosView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "5CB2E556-50F3-46AA-9147-4948253D556D - 19d9593663807928"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URL) -&gt; &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Foundation.URL&gt;, Foundation.URL, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt; in multiTaskApp.DisplayVideosView.body.getter : some"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/Views/DisplayVideosView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "5CB2E556-50F3-46AA-9147-4948253D556D - 19d9593663807928"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URL) -&gt; &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Foundation.URL&gt;, Foundation.URL, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt; in multiTaskApp.DisplayVideosView.body.getter : some"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/Views/DisplayVideosView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5ADD2FD-2E8B-4989-A49D-771A94C2AA20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/VideoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchVideos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5ADD2FD-2E8B-4989-A49D-771A94C2AA20 - 4635324a0fd448c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoViewModel.fetchVideos() -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/VideoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "918">
+               </Location>
+               <Location
+                  uuid = "E5ADD2FD-2E8B-4989-A49D-771A94C2AA20 - 4635324a0fd448e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoViewModel.fetchVideos() -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/VideoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "918">
+               </Location>
+               <Location
+                  uuid = "E5ADD2FD-2E8B-4989-A49D-771A94C2AA20 - 4635324a0fd448e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoViewModel.fetchVideos() -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/VideoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BF4608E-7556-4431-9217-547487FA317C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/VideoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchVideos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BF4608E-7556-4431-9217-547487FA317C - 4635324a0fd44807"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoViewModel.fetchVideos() -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/VideoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "790">
+               </Location>
+               <Location
+                  uuid = "4BF4608E-7556-4431-9217-547487FA317C - 2f417a4118f80d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URL) -&gt; Swift.Bool in multiTaskApp.VideoViewModel.fetchVideos() -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/VideoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "4BF4608E-7556-4431-9217-547487FA317C - 4635324a0fd44826"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoViewModel.fetchVideos() -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/VideoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "790">
+               </Location>
+               <Location
+                  uuid = "4BF4608E-7556-4431-9217-547487FA317C - 2f417a4118f80f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URL) -&gt; Swift.Bool in multiTaskApp.VideoViewModel.fetchVideos() -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/VideoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DA626EF-7C94-4BCF-AC86-1025C8A674E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "saveVideoToDocumentDirectory(videoURL:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DA626EF-7C94-4BCF-AC86-1025C8A674E5 - c5eb07a82be66ae4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1170">
+               </Location>
+               <Location
+                  uuid = "0DA626EF-7C94-4BCF-AC86-1025C8A674E5 - c5eb07a82be66ac7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14595E98-4428-4EC5-846F-4AF1717F1D3A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "saveVideoToDocumentDirectory(videoURL:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14595E98-4428-4EC5-846F-4AF1717F1D3A - c5eb07a82be66b26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1837">
+               </Location>
+               <Location
+                  uuid = "14595E98-4428-4EC5-846F-4AF1717F1D3A - c5eb07a82be66b09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA1A8EE9-28A9-441A-A1D4-C89E8E97FEB6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "saveVideoToDocumentDirectory(videoURL:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

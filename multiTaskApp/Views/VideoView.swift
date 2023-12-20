@@ -12,20 +12,24 @@ struct VideoView: View {
     @State private var videoURL: URL?
 
     var body: some View {
-        VStack {
-            Button(action: {
-                self.showPicker.toggle()
-            }) {
-                Text("Select or Record Video")
-                    .padding()
-                    .foregroundColor(.white)
-                    .background(Color.blue)
-                    .cornerRadius(10)
-            }
-        }
+        NavigationStack{
+            VStack {
+                NavigationLink(destination:DisplayVideosView()){
+                    Text("All videos")
+                }
+                Button(action: {
+                    self.showPicker.toggle()
+                }) {
+                    Text("Record Video")
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                }
+            }}
         .sheet(isPresented: $showPicker) {
             VideoPickerView(sourceType: .camera, mediaTypes: [kUTTypeMovie as String], selectedVideo: self.$videoURL)
-//            
+//
             }
         
     }

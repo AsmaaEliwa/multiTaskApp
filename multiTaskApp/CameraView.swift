@@ -1,7 +1,6 @@
 
 import SwiftUI
 import AVFoundation
-import MobileCoreServices // Import this for video types
 
 
 
@@ -35,7 +34,8 @@ struct VideoPickerView: UIViewControllerRepresentable {
         
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
                if let videoURL = info[.mediaURL] as? URL {
-                   parent.selectedVideo = videoURL // Assign the selected video URL to the binding
+                
+                   parent.selectedVideo = videoURL
                    parent.saveVideoToDocumentDirectory(videoURL: videoURL) // Save the video to the document directory
                }
                
@@ -51,13 +51,16 @@ struct VideoPickerView: UIViewControllerRepresentable {
     func saveVideoToDocumentDirectory(videoURL: URL) {
         let fileManager = FileManager.default
         let documentsPath = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        let destinationURL = documentsPath.appendingPathComponent("myVideo.mp4")
+        let destinationURL = documentsPath.appendingPathComponent("video-\(Date().timeIntervalSince1970).mp4")
 
         do {
             try fileManager.moveItem(at: videoURL, to: destinationURL)
+            
             print("Video saved successfully at: \(destinationURL)")
+            
         } catch {
             print("Error saving video: \(error.localizedDescription)")
+            
         }
     }
    
