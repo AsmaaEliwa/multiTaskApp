@@ -11,6 +11,7 @@
 		7FA802CB2B31071900E87A60 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA802CA2B31071900E87A60 /* CameraView.swift */; };
 		7FA8030D2B330CCA00E87A60 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8030C2B330CCA00E87A60 /* VideoViewModel.swift */; };
 		7FA803112B330DCA00E87A60 /* DisplayVideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA803102B330DCA00E87A60 /* DisplayVideosView.swift */; };
+		7FA8036A2B39C7CB00E87A60 /* ConvertManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA803692B39C7CB00E87A60 /* ConvertManger.swift */; };
 		7FF4DB8B2B2C6AFE002AF49B /* multiTaskAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DB8A2B2C6AFE002AF49B /* multiTaskAppApp.swift */; };
 		7FF4DB8D2B2C6AFE002AF49B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4DB8C2B2C6AFE002AF49B /* ContentView.swift */; };
 		7FF4DB8F2B2C6B03002AF49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF4DB8E2B2C6B03002AF49B /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		7FA802CA2B31071900E87A60 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		7FA8030C2B330CCA00E87A60 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 		7FA803102B330DCA00E87A60 /* DisplayVideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayVideosView.swift; sourceTree = "<group>"; };
+		7FA803692B39C7CB00E87A60 /* ConvertManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertManger.swift; sourceTree = "<group>"; };
 		7FF4DB872B2C6AFE002AF49B /* multiTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF4DB8A2B2C6AFE002AF49B /* multiTaskAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiTaskAppApp.swift; sourceTree = "<group>"; };
 		7FF4DB8C2B2C6AFE002AF49B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				7FF4DBAE2B2DDFB0002AF49B /* ImagePicker.swift */,
 				7FA802CA2B31071900E87A60 /* CameraView.swift */,
 				7FA8030C2B330CCA00E87A60 /* VideoViewModel.swift */,
+				7FA803692B39C7CB00E87A60 /* ConvertManger.swift */,
 			);
 			path = multiTaskApp;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				7FF4DBAB2B2DD5CF002AF49B /* DocumentDirectoryManger.swift in Sources */,
 				7FF4DBA02B2C6C89002AF49B /* AudioView.swift in Sources */,
 				7FF4DBAD2B2DDB21002AF49B /* PlayerViewController.swift in Sources */,
+				7FA8036A2B39C7CB00E87A60 /* ConvertManger.swift in Sources */,
 				7FF4DB942B2C6B03002AF49B /* Persistence.swift in Sources */,
 				7FF4DB8D2B2C6AFE002AF49B /* ContentView.swift in Sources */,
 				7FA803112B330DCA00E87A60 /* DisplayVideosView.swift in Sources */,

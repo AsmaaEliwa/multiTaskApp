@@ -33,26 +33,26 @@ struct VideoPickerView: UIViewControllerRepresentable {
         }
         
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
-               if let videoURL = info[.mediaURL] as? URL {
+            if let videoURL = info[.mediaURL] as? URL {
                 
-                   parent.selectedVideo = videoURL
-                   parent.saveVideoToDocumentDirectory(videoURL: videoURL) // Save the video to the document directory
-               }
-               
-               picker.dismiss(animated: true)
-           }
+                parent.selectedVideo = videoURL
+                parent.saveVideoToDocumentDirectory(videoURL: videoURL) // Save the video to the document directory
+            }
+            
+            picker.dismiss(animated: true)
+        }
         
         func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
             picker.dismiss(animated: true)
         }
     }
-
-
+    
+    
     func saveVideoToDocumentDirectory(videoURL: URL) {
         let fileManager = FileManager.default
         let documentsPath = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
         let destinationURL = documentsPath.appendingPathComponent("video-\(Date().timeIntervalSince1970).mp4")
-
+        
         do {
             try fileManager.moveItem(at: videoURL, to: destinationURL)
             
@@ -63,5 +63,5 @@ struct VideoPickerView: UIViewControllerRepresentable {
             
         }
     }
-   
+    
 }
