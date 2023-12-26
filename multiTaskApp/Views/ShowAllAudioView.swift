@@ -19,10 +19,10 @@ struct AVPlayerView: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {}
 }
 struct ShowAllAudioView: View {
-    @ObservedObject var documentDirectoryManger : DocumentDirectoryManger
+    @ObservedObject var documentDirectoryManger : DocumentDirectoryManager
     var audioManager = AudioManger()
     init(){
-        documentDirectoryManger = DocumentDirectoryManger.shared
+        documentDirectoryManger = DocumentDirectoryManager.shared
         audioManager = AudioManger.shared
         
     }

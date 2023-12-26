@@ -18,7 +18,7 @@ struct AudioView: View {
                 Text("\(process) Recording")
                 Button{}label: {
                     NavigationLink(destination: ShowAllAudioView()){
-                        Label("Show All" , systemImage: "waveform.badge.mic")
+                        Label("Show All" , systemImage: "photo.stack.fill")
                         
                     }
                 }
