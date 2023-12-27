@@ -25,7 +25,7 @@ struct ImageDetailView: View {
                    ActivityViewController(activityItems: [image])
                }
 
-               Button("Convert") {
+               Button("Convert to Png") {
                    ConvertManger.shared.convertImage(image: image) { result in
                     
                        

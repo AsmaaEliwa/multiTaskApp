@@ -24,7 +24,7 @@ class ConvertManger{
               request.httpMethod = "POST"
               request.addValue("application/json", forHTTPHeaderField: "Content-Type")
       
-              guard let imageData = image.jpegData(compressionQuality: 1.0) else {
+              guard let imageData = image.jpegData(compressionQuality: 0.6) else {
                   completion(.failure(ConversionError.encodingError))
                   
                   return
@@ -36,7 +36,7 @@ class ConvertManger{
                 [
                     "Name": "File",
                     "FileValue": [
-                        "Name": "appAcademy.jpg",
+                        "Name": "\(base64EncodedImage).jpg",
                         "Data": base64EncodedImage
                     ]
                 ],
@@ -86,26 +86,6 @@ class ConvertManger{
           }
     
     
-    
-    func saveImageToDocumentsDirectory(image: UIImage, fileName: String) -> URL? {
-           let fileManager = FileManager.default
-           guard let documentsDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else { return nil }
-           let fileURL = documentsDirectory.appendingPathComponent(fileName)
-
-           guard let imageData = image.pngData() else { return nil }
-
-           do {
-               try imageData.write(to: fileURL)
-               print("Saved image to \(fileURL)")
-               
-               return fileURL
-           } catch {
-               print("Error saving image: \(error)")
-               
-               return nil
-           }
-       }
-    
       }
 
 class Manger {
@@ -127,7 +107,8 @@ class Manger {
                 case .success(let image):
                     // Save the image to the document directory
                     do {
-                        let savedUrl = try self.saveImageToDocumentsDirectory(image: image)
+                        let savedUrl = try DocumentDirectoryManager.shared.saveImageToDocumentsDirectoryAsPng(image: image)
+                        
                         completion(.success(savedUrl))
                     } catch {
                         completion(.failure(error))
@@ -162,15 +143,6 @@ class Manger {
         }.resume()
     }
 
-    func saveImageToDocumentsDirectory(image: UIImage) throws -> URL {
-        guard let imageData = image.jpegData(compressionQuality: 1) else {
-            throw ConversionError.imageSaveFailed
-        }
-        let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let fileName = UUID().uuidString + ".png"
-        let fileURL = documentDirectory.appendingPathComponent(fileName)
-        try imageData.write(to: fileURL)
-        return fileURL
-    }
+   
 
 }

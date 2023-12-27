@@ -68,6 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FA8036F2B3C487B00E87A60 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8030C2B330CCA00E87A60 /* VideoViewModel.swift */,
+			);
+			name = viewModel;
+			sourceTree = "<group>";
+		};
+		7FA803702B3C5F1300E87A60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8036D2B3A477D00E87A60 /* ConvertAPIResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7FF4DB7E2B2C6AFE002AF49B = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +115,9 @@
 				7FF4DBAC2B2DDB21002AF49B /* PlayerViewController.swift */,
 				7FF4DBAE2B2DDFB0002AF49B /* ImagePicker.swift */,
 				7FA802CA2B31071900E87A60 /* CameraView.swift */,
-				7FA8030C2B330CCA00E87A60 /* VideoViewModel.swift */,
+				7FA8036F2B3C487B00E87A60 /* viewModel */,
 				7FA803692B39C7CB00E87A60 /* ConvertManger.swift */,
-				7FA8036D2B3A477D00E87A60 /* ConvertAPIResponse.swift */,
+				7FA803702B3C5F1300E87A60 /* Model */,
 			);
 			path = multiTaskApp;
 			sourceTree = "<group>";

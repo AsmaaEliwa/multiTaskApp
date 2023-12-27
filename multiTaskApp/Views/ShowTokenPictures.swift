@@ -7,13 +7,12 @@
 import SwiftUI
 
 struct ShowTokenPictures: View {
-    @State  var documentDirectory: DocumentDirectoryManager
-    @State  var showingShareSheet = false // Track if the share sheet should be shown
+    @ObservedObject  var documentDirectory: DocumentDirectoryManager
     init(){
         documentDirectory = DocumentDirectoryManager.shared
     }
     var body: some View {
-        NavigationView {
+//        NavigationView {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))]) {
                                 ForEach(documentDirectory.images, id: \.self) { image in
@@ -29,19 +28,12 @@ struct ShowTokenPictures: View {
             }
             .navigationTitle("Gallery")
           
-        }
-        .sheet(isPresented: $showingShareSheet) {
-            // Present the share sheet when showingShareSheet is true
-            ActivityViewController(activityItems: documentDirectory.images)
-        }
+//        }
+
     }
     
 
-    
-    func shareImage(image: UIImage) {
-        // When an image is tapped, set showingShareSheet to true
-        showingShareSheet = true
-    }
+
 }
 
 // UIViewControllerRepresentable for wrapping UIKit components in SwiftUI

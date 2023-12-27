@@ -102,120 +102,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0DA626EF-7C94-4BCF-AC86-1025C8A674E5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "multiTaskApp/CameraView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "saveVideoToDocumentDirectory(videoURL:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0DA626EF-7C94-4BCF-AC86-1025C8A674E5 - c5eb07a82be66ae4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
-                  moduleName = "multiTaskApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "1170">
-               </Location>
-               <Location
-                  uuid = "0DA626EF-7C94-4BCF-AC86-1025C8A674E5 - c5eb07a82be66ac7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
-                  moduleName = "multiTaskApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "1468">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "14595E98-4428-4EC5-846F-4AF1717F1D3A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "multiTaskApp/CameraView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "saveVideoToDocumentDirectory(videoURL:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "14595E98-4428-4EC5-846F-4AF1717F1D3A - c5eb07a82be66b26"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
-                  moduleName = "multiTaskApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60"
-                  offsetFromSymbolStart = "1837">
-               </Location>
-               <Location
-                  uuid = "14595E98-4428-4EC5-846F-4AF1717F1D3A - c5eb07a82be66b09"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "multiTaskApp.VideoPickerView.saveVideoToDocumentDirectory(videoURL: Foundation.URL) -&gt; ()"
-                  moduleName = "multiTaskApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/CameraView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "1852">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DA1A8EE9-28A9-441A-A1D4-C89E8E97FEB6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "multiTaskApp/CameraView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "saveVideoToDocumentDirectory(videoURL:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "1531FEC9-F40A-49E9-AE37-6A1B891E5007"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "multiTaskApp/Views/ImageDetailView.swift"
@@ -394,6 +282,36 @@
                   startingLineNumber = "20"
                   endingLineNumber = "20"
                   offsetFromSymbolStart = "4204">
+               </Location>
+               <Location
+                  uuid = "6830F31C-46C9-43E7-B81F-2114725AB678 - c1077d3a628427f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.ConvertManger.convertImage(image: __C.UIImage, completion: (Swift.Result&lt;__C.UIImage, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/ConvertManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4432">
+               </Location>
+               <Location
+                  uuid = "6830F31C-46C9-43E7-B81F-2114725AB678 - c1077d3a628427f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.ConvertManger.convertImage(image: __C.UIImage, completion: (Swift.Result&lt;__C.UIImage, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/ConvertManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4436">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -797,7 +715,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "6B2464FD-7E78-4C86-A989-11F7D53BFCD6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "multiTaskApp/ConvertManger.swift"
@@ -807,6 +725,166 @@
             endingLineNumber = "73"
             landmarkName = "convertImage(image:completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E29FDEFF-D390-4E7F-BB22-5AE384200C2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/DocumentDirectoryManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "saveImageToDocumentsDirectoryAsPng(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E29FDEFF-D390-4E7F-BB22-5AE384200C2B - 512e691d1ce40b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.DocumentDirectoryManager.saveImageToDocumentsDirectoryAsPng(image: __C.UIImage) throws -&gt; Foundation.URL"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/DocumentDirectoryManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "E29FDEFF-D390-4E7F-BB22-5AE384200C2B - 512e691d1ce402e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.DocumentDirectoryManager.saveImageToDocumentsDirectoryAsPng(image: __C.UIImage) throws -&gt; Foundation.URL"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/DocumentDirectoryManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "592">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BE75878-8871-4E5F-8602-2281B7A4FCBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/DocumentDirectoryManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "saveImageToDocumentsDirectoryAsPng(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD303B67-726B-44AE-B43E-DE25FFF81328"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/DocumentDirectoryManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "saveImageToDocumentsDirectoryAsPng(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD303B67-726B-44AE-B43E-DE25FFF81328 - 512e691d1ce4137"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.DocumentDirectoryManager.saveImageToDocumentsDirectoryAsPng(image: __C.UIImage) throws -&gt; Foundation.URL"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/DocumentDirectoryManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "DD303B67-726B-44AE-B43E-DE25FFF81328 - 512e691d1ce40b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "multiTaskApp.DocumentDirectoryManager.saveImageToDocumentsDirectoryAsPng(image: __C.UIImage) throws -&gt; Foundation.URL"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/DocumentDirectoryManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F087D21-E3EE-4894-8CA4-563F7F56C8A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "multiTaskApp/ConvertManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "handleConversionResponse(data:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F087D21-E3EE-4894-8CA4-563F7F56C8A9 - 5d813ed135286b2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;__C.UIImage, Swift.Error&gt;) -&gt; () in multiTaskApp.Manger.handleConversionResponse(data: Foundation.Data, completion: (Swift.Result&lt;Foundation.URL, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/ConvertManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "0F087D21-E3EE-4894-8CA4-563F7F56C8A9 - 5d813ed1352896b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;__C.UIImage, Swift.Error&gt;) -&gt; () in multiTaskApp.Manger.handleConversionResponse(data: Foundation.Data, completion: (Swift.Result&lt;Foundation.URL, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "multiTaskApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/multiTaskApp/multiTaskApp/ConvertManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -36,7 +36,7 @@ struct VideoPickerView: UIViewControllerRepresentable {
             if let videoURL = info[.mediaURL] as? URL {
                 
                 parent.selectedVideo = videoURL
-                parent.saveVideoToDocumentDirectory(videoURL: videoURL) // Save the video to the document directory
+                DocumentDirectoryManager.shared.saveVideoToDocumentDirectory(videoURL: videoURL) // Save the video to the document directory
             }
             
             picker.dismiss(animated: true)
@@ -48,20 +48,6 @@ struct VideoPickerView: UIViewControllerRepresentable {
     }
     
     
-    func saveVideoToDocumentDirectory(videoURL: URL) {
-        let fileManager = FileManager.default
-        let documentsPath = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        let destinationURL = documentsPath.appendingPathComponent("video-\(Date().timeIntervalSince1970).mp4")
-        
-        do {
-            try fileManager.moveItem(at: videoURL, to: destinationURL)
-            
-            print("Video saved successfully at: \(destinationURL)")
-            
-        } catch {
-            print("Error saving video: \(error.localizedDescription)")
-            
-        }
-    }
+
     
 }
